@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: #3c5077;
+}
+.container{
+    width: 100%;
+    height: 60vh;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height: 8vh;
+    width: 25vh;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;    
+}
+.img-ctr{
+   padding-left: 12%;
+    background-color: #3c5077;
+
+}
+.img-ctr{
+    padding-top: 2%;
+}
+.clear-btn{
+    height: 8vh;
+    width: 26vh;
+    margin-right:3% ;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-top: 0;
+}
+.count-alert{
+    width: 550px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%)  scale(0.1) ;
+    text-align: center;
+    padding: 0px 30px 30px ;
+    color: #333;
+    visibility: hidden;
+    transition:  transform 0.4s,top 0.4s;
+}
+.alert-img {
+    width: 100px;
+    margin-top: -50px;
+ border-radius: 50%;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;   
+}
+.count-alert h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 30px 10px;
+    padding-top: 2%;
+
+}
+.text{
+    width: 450px;
+    background-color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 17%;
+    margin-right: 2%;
+    position:absolute;
+    top:20px; 
+    color:#4B4B4B; 
+    font-size:18.0px;
+    height:46px;
+}
+    
+.count-alert button{
+    width: 70%;
+    margin-top: 1.5%;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.open-alert{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+}
