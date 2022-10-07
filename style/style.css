@@ -23,27 +23,15 @@ body{
     font-size: 22px;
     font-weight: 500;
     border-radius: 30px;    
+margin-right: 5%;
 }
 .img-ctr{
-   padding-left: 12%;
+   padding-left: 13%;
     background-color: #3c5077;
 
 }
 .img-ctr{
     padding-top: 2%;
-}
-.clear-btn{
-    height: 8vh;
-    width: 26vh;
-    margin-right:3% ;
-    background-color: #fff;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    font-size: 22px;
-    font-weight: 500;
-    border-radius: 30px;
-    margin-top: 0;
 }
 .count-alert{
     width: 550px;
@@ -72,11 +60,15 @@ body{
     padding-top: 2%;
 
 }
+textarea{
+    resize: none;
+    text-align: start;
+}
 .text{
     width: 450px;
     background-color: #fff;
     border-radius: 6px;
-    text-align: center;
+    padding-top: 1%;
     margin-top: 17%;
     margin-right: 2%;
     position:absolute;

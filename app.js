@@ -18,10 +18,10 @@ function openAlert(){
         document.getElementById("counter").innerHTML = "The text you entered consists of :  " ;
         document.getElementById("charCounter").innerHTML = charCounter  +"    characters";
         document.getElementById("spaceCounter").innerHTML = spaceCounter+"    spaces";
-        }
+        document.getElementById("input_text").value = "";
+
+    }
+
     function closeAlert(){
       count_alert.classList.remove("open-alert");
     }
-function clear_text(){
-document.getElementById("input_text").value = "";
-}
