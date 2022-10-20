@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,47 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="img-ctr">
-        <img src="imgs/q-fococlipping-standard.png" alt="" class="img-ctr" >
-    </div>
+<body>    
     <div class="container">
-        <textarea id="input_text" class="text" placeholder="Enter yout text .. " ></textarea>
-        <button type="submit" class="btn" onclick="openAlert();countChars()">
-            Count
-        </button>
+    <!--
        
+
+            <textarea id="input_text" class="text" placeholder="   Enter yout text .. " ></textarea>
+            <button type="submit" class="btn" onclick="openAlert();countChars()">
+            Count
+            </button>
+       -->
+       
+       <div class="row">
+        <!--col 1 -->
+        <div class="col-12">
         
-       <div class="count-alert" id="count-alert">
-        <img src="imgs/images (1).png (1).png" alt="done" class="alert-img">
+            <div class="img-ctr">
+                <img src="imgs/q-fococlipping-standard.png" alt="" class="img-ctr" >
+            </div>        
+    
+        </div>
+
+      <div class="col-12">
+        
+        <textarea id="input_text" class="text" placeholder="   Enter yout text .. " ></textarea>
+        
+
+    </div>
+    
+
+        <!-- col 2 -->
+      <div class="col-12">
+    <button type="submit" class="btn" onclick="openAlert();countChars()">
+        Count
+        </button>
+    </div>
+
+    </div>
+  </div>
+         
+       <div class="count-alert " id="count-alert">
+        <img src="imgs/images (1).png" alt="done" class="alert-img">
         <h3 id="counter"></h3>
         <h3 id="charCounter"></h3>
         <h3 id="spaceCounter"></h3>
